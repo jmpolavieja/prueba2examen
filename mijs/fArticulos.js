@@ -9,5 +9,6 @@ export function listaHTML() {
     listaArticulos.map( articulo => {
         const li = document.createElement('li');
         const text = document.createTextNode(articulo);
+        li.appendChild(text);
     } )
 }
